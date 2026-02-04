@@ -16,10 +16,10 @@ The system under test is a publicly available demo application commonly used wit
 ---
 
 ## Tech Stack
-- Cypress (UI automation)
+- Playwright (UI and API automation)
 - JavaScript
 - Node.js
-- Postman & Newman (API testing)
+- REST APIs
 
 ---
 
