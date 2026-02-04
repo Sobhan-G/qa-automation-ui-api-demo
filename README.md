@@ -1,35 +1,21 @@
 # QA Automation – UI & API Demo
 
-This project demonstrates how I approach test automation in a realistic QA context.
+This project demonstrates a professional approach to test automation using Playwright.
 
-## 🎯 The focus is on:
-* **Clear project structure**
-* **Maintainable and readable test code**
-* **Combining UI and API automation**
-* **Test strategy and prioritization**
-
-The system under test is a publicly available demo application commonly used within the QA community.
+## 🎯 Project Goals
+- **Clear structure:** Separated UI and API tests.
+- **Realistic scenarios:** End-to-end testing of login and cart flows.
+- **Backend validation:** Direct API testing for data integrity.
 
 ## 🛠 Tech Stack
-* **Playwright** (UI and API automation)
-* **JavaScript**
-* **Node.js**
-* **REST APIs**
-
-## 🧪 Scope
-* **Critical user flows**
-* **Regression-prone functionality**
-* **Backend data validation via API**
-
-> **Note:** This project focuses on *how* and *why* automation is applied, rather than advanced frameworks or tooling.
+- **Playwright** (UI & API)
+- **JavaScript**
+- **Node.js**
 
 ## 📂 Project Structure
-```text
-qa-automation-ui-api-demo/
-├── tests/
-│   ├── ui/          # UI tests using Playwright
-│   └── api/         # API tests (REST)
-├── playwright.config.js
-├── test-strategy.md
-├── README.md
-└── package.json
+- `tests/ui/`: Contains UI tests (e.g., SauceDemo login flow).
+- `tests/api/`: Contains REST API tests.
+
+## 🚀 How to run the tests
+1. Install dependencies: `npm install`
+2. Run tests in UI mode: `npm run test:ui`
