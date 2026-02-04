@@ -1,0 +1,12 @@
+{
+  "name": "qa-automation-ui-api-demo",
+  "version": "1.0.0",
+  "description": "QA automation demo combining UI and API testing",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^13.0.0"
+  }
+}
