@@ -32,3 +32,16 @@ The system under test is a publicly available demo application commonly used wit
 
 ## Notes
 This project focuses on *how* and *why* automation is applied, rather than advanced frameworks or tooling.
+
+
+## Project Structure
+
+qa-automation-ui-api-demo/
+├── tests/
+│   ├── ui/        # UI tests using Playwright
+│   └── api/       # API tests (REST)
+├── playwright.config.js
+├── test-strategy.md
+├── README.md
+└── package.json
+
