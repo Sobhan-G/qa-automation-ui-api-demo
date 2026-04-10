@@ -16,6 +16,15 @@ This project demonstrates a professional approach to test automation using Playw
 - `tests/ui/`: Contains UI tests (e.g., SauceDemo login flow).
 - `tests/api/`: Contains REST API tests.
 
-## 🚀 How to run the tests
-1. Install dependencies: `npm install`
-2. Run tests in UI mode: `npm run test:ui`
+- 
+## How to run
+
+1. Install dependencies:
+   npm install
+
+2. Run tests in UI mode:
+   npm run test:ui
+
+3. View test report:
+   npm run test:report
+   
